@@ -1,0 +1,16 @@
+{
+  "name": "neutron-dark-syntax",
+  "theme": "syntax",
+  "version": "1.0.0",
+  "description": "A dark syntax theme",
+  "keywords": [
+    "dark",
+    "blue",
+    "syntax"
+  ],
+  "repository": "",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}

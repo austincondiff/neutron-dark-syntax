@@ -1,0 +1,37 @@
+
+// Config -----------------------------------
+@syntax-hue:          198;
+@syntax-saturation:   0%;
+@syntax-brightness:   9%;
+
+
+// Monochrome -----------------------------------
+@mono-1: #FFFFFF; // default text
+@mono-2: #777778;
+@mono-3: #373736;
+
+// Colors -----------------------------------
+@hue-1:   #82DDFF; // <-cyan
+@hue-2:   #1EBBFF; // <-blue
+@hue-3:   #A78EFF; // <-purple
+@hue-4:   #A3F674; // <-green
+
+@hue-5:   #FF5BA9; // <-red 1
+@hue-5-2: #FF5F5B; // <-red 2
+
+@hue-6:   #FF8646; // <-orange 1
+@hue-6-2: #FFC235; // <-orange 2
+
+
+// Base colors -----------------------------------
+@syntax-fg:     @mono-1;
+@syntax-bg:     hsl(@syntax-hue, @syntax-saturation, @syntax-brightness);
+@syntax-gutter: @mono-3;
+@syntax-guide:  fade(@syntax-fg, 15%);
+@syntax-accent: @hue-2;
+
+.cursor, atom-text-editor::shadow .cursor,
+atom-text-editor .gutter .line-number,
+atom-text-editor .line {
+    transition: .15s;
+}
