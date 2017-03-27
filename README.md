@@ -1,4 +1,4 @@
-## One Dark Syntax theme
+## Neutron Dark Syntax theme
 
 ![one-dark-syntax](https://cloud.githubusercontent.com/assets/378023/7783203/49271ef6-0174-11e5-8eb1-d80b8d34a0e3.png)
 
